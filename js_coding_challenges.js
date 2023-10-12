@@ -16,11 +16,20 @@
 
 // write a while loop that prints your surname 15 times
 
-// let i =0;
-// while (i < 15) {
+// var i =0;
+// while (false) {
 //     console.log("Dini")
 //     i++
 // }
+
+// write a do...while that prints your surname just once times
+
+// var i =0;
+// do {
+//     console.log("Dini..")
+//     i++
+// }
+// while (i < 20) 
 
 // code an array of 10 element of type string (for example 10 students)
 
@@ -32,6 +41,21 @@
 // for (let i = 0; i < students.length;i++) {
 //     console.log(students[i])
 // }
+
+// write an infinite for loop
+
+// for (;;){
+//     console.log('hello')
+  
+// }
+
+// write an infinite loop using a while loop
+
+// while(true) {
+//     console.log("hello 2")
+// }
+
+
 
 // name few functions that come with arrays, that allow you to interate through the elements
 
@@ -58,9 +82,43 @@
 
 
 // convert the traditional function to an arrow function 
-let multiply = function (num1, num2) {
-    let result = num1 * num2
-    return result;
+// let multiply = function (num1, num2) {
+//     let result = num1 * num2
+//     return result;
+// }
+
+// console.log(multiply(5,3))
+
+/*
+use if/else/if chained to check the day of the week 
+and print "it is work time" for monday, tuesday
+"it is school time", for friday "it is off day" 
+*/
+
+let day = "Tuesday"
+if (day == "Monday") {
+    console.log("it is work time")
+} else if (day == "Tuesday") {
+    console.log("it is school time")
+} 
+else {
+    console.log("it is off time")
 }
 
-console.log(multiply(5,3))
+// convert the if/else/if to switch statement
+
+switch (day) {
+    case "Monday":
+        console.log("it is work time.. switch")
+        break;
+    case "Tuesday":
+        console.log("it is school time.. switch")
+        break;
+
+    default:
+        console.log("it is off time.. switch")
+        break;
+}
+
+
+
