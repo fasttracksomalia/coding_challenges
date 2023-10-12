@@ -1,11 +1,11 @@
 // wrtie a tradition function that multiplies two number and returns the value print the value outside the function
 
-function multiply(num1, num2) {
-    let result = num1 * num2
-    return result;
-}
+// function multiply(num1, num2) {
+//     let result = num1 * num2
+//     return result;
+// }
 
-console.log(multiply(5,3))
+// console.log(multiply(5,3))
 
 
 // write a for loop that prints your first name 10 times
@@ -55,3 +55,12 @@ console.log(multiply(5,3))
 // maps
 // sets
 // 
+
+
+// convert the traditional function to an arrow function 
+let multiply = function (num1, num2) {
+    let result = num1 * num2
+    return result;
+}
+
+console.log(multiply(5,3))
