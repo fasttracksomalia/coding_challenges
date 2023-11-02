@@ -26,3 +26,12 @@ for (let i = 0; i < students.length;i++) {
 //       console.log("the element is " + value + " and its index is " + index)
 //    } 
 // )
+
+let myCousins = new Array();
+myCousins.push("Farhan");
+myCousins.push("Ali");
+myCousins.push("Saynab");
+myCousins.push("Ali");
+myCousins.push("Mohamed");
+
+console.log(myCousins)
